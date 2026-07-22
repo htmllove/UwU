@@ -88,7 +88,7 @@ alias_block_exists() {
     function is_project_alias(line,    body) {
         body = strip_unquoted_comment(line)
         return body ~ /^[[:space:]]*alias[[:space:]]+(bbr|dog)=/ &&
-               body ~ /(raw\.githubusercontent\.com|github\.com)\/Eric86777\/vps-tcp-tune\// &&
+               body ~ /(raw\.githubusercontent\.com|github\.com)\/htmllove\/UwU\// &&
                body ~ /net-tcp-tune\.sh/
     }
     is_project_alias($0) { found = 1; exit }
