@@ -104,7 +104,7 @@ append_alias_block() {
 # Короткие псевдонимы для net-tcp-tune (добавлено автоматически)
 # -q игнорирует локальный curlrc, параметр с меткой времени гарантирует получение актуальной версии
 # ========================================
-alias bbr="bash <(curl -q -fsSL \"https://raw.githubusercontent.com/Eric86777/vps-tcp-tune/refs/heads/main/net-tcp-tune.sh?\$(date +%s)\")"
+alias bbr="bash <(curl -q -fsSL \"https://raw.githubusercontent.com/htmllove/UwU/refs/heads/main/net-tcp-tune.sh?\$(date +%s)\")"
 # <<< net-tcp-tune alias <<<
 ALIAS_EOF
 }
